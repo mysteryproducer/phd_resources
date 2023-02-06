@@ -1,0 +1,16 @@
+
+body {font-family: karma;margin:0px;
+    background-color:var(--back);background:var(--backimage) no-repeat;background-size:cover;padding:0px;margin:0px;}
+.stanza {margin-bottom:12pt;}
+h1 {font-size:x-large;margin-top:16pt;}
+.meme {font-family: impact; text-transform: uppercase; color: white; letter-spacing: 2px; 
+    text-shadow:2px 2px 0 #000,-2px -2px 0 #000,2px -2px 0 #000,-2px 2px 0 #000,0px 2px 0 #000,2px 0px 0 #000,0px -2px 0 #000,-2px 0px 0 #000,2px 2px 5px #000;
+    /*margin-right:2px;margin-left:1px;*/}
+.floating {position:absolute;}
+.poem {padding:6pt;margin-top:10px;z-index:5;}
+.field {background-color:var(--back);background:var(--backimage) no-repeat;background-size:cover;}
+div {color:var(--fore);white-space:nowrap;}
+.line {text-indent:-20pt;margin-left:20pt;}
+.img_div {max-width:80vw;background-repeat:no-repeat;height:600px;}
+.factsheet {background:var(--back);position:fixed;text-align:center;width:100vw;top:0;left:0;z-index:10;padding:4px;}
+.factsheet>a {color:var(--fore);text-decoration:none;font-weight:bold;}
